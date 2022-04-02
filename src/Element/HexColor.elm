@@ -1,4 +1,10 @@
 module Element.HexColor exposing (rgbaCSSHex, rgbCSSHex)
+{-| This module just adds two helper functions to convert CSS hex strings into a elm-ui Color
+
+# CSS Color Helpers
+@docs rgbaCSSHex, rgbCSSHex
+
+-}
 
 import Element exposing (Color, rgba255, rgb255)
 import ColorHelper
